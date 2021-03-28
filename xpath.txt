@@ -1,0 +1,3 @@
+Sub enlace =/a[@class="img-centered-flex rh-flex-center-align rh-flex-justify-center"]/@href
+Titulo= //div[@class="title_single_area"]/text-fill[not(@class)]/text()
+Enlace de udemy= //div/a[@class="re_track_btn btn_offer_block"]/@href
