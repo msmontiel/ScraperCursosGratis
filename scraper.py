@@ -5,6 +5,7 @@ import datetime
 
 HOME_URL = 'https://freebiesglobal.com/dealstore/udemy'
 HOME_URL2 = 'https://freebiesglobal.com/dealstore/udemy/page/2'
+HOME_URL3 = 'https://freebiesglobal.com/dealstore/udemy/page/3'
 
 XPATH_LINK_TO_ARTHICLE = '//a[@class="img-centered-flex rh-flex-center-align rh-flex-justify-center"]/@href'
 XPATH_UDEMY_LINK = '//div/a[@class="re_track_btn btn_offer_block"]/@href'
