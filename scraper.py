@@ -6,6 +6,8 @@ import datetime
 HOME_URL = 'https://freebiesglobal.com/dealstore/udemy'
 HOME_URL2 = 'https://freebiesglobal.com/dealstore/udemy/page/2'
 HOME_URL3 = 'https://freebiesglobal.com/dealstore/udemy/page/3'
+HOME_URL4 = 'https://freebiesglobal.com/dealstore/eduonix'
+HOME_URL5 = 'https://freebiesglobal.com/dealstore/eduonix/page/2'
 
 XPATH_LINK_TO_ARTHICLE = '//a[@class="img-centered-flex rh-flex-center-align rh-flex-justify-center"]/@href'
 XPATH_UDEMY_LINK = '//div/a[@class="re_track_btn btn_offer_block"]/@href'
@@ -54,6 +56,7 @@ def parse_home(url_in):
 def run():
     parse_home(HOME_URL)
     parse_home(HOME_URL2)
+    #parse_home(HOME_URL3)
 
 
 if __name__ == '__main__':
