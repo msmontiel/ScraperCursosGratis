@@ -41,6 +41,7 @@ def parse_home(url_in):
             links_to_notice = parsed.xpath(XPATH_LINK_TO_ARTHICLE)
 
             today = datetime.date.today().strftime('%d-%m-%Y')
+
             if not os.path.isdir(today):
                 os.mkdir(today)
 
@@ -56,7 +57,7 @@ def parse_home(url_in):
 def run():
     parse_home(HOME_URL)
     parse_home(HOME_URL2)
-    # parse_home(HOME_URL3)
+    parse_home(HOME_URL3)
     # parse_home(HOME_URL4)
 
 
